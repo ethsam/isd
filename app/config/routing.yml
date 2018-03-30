@@ -1,0 +1,16 @@
+tags_tags:
+    resource: "@TagsBundle/Controller/TagsController.php"
+    type:     annotation
+
+app_post:
+    resource: "@AppBundle/Controller/PostController.php"
+    type:     annotation
+
+tags:
+    resource: "@TagsBundle/Controller/"
+    type:     annotation
+    prefix:   /tagsBundle
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
