@@ -9,7 +9,7 @@ app_post:
 tags:
     resource: "@TagsBundle/Controller/"
     type:     annotation
-    prefix:   /tagsBundle
+    prefix:   /tags
 
 app:
     resource: '@AppBundle/Controller/'
